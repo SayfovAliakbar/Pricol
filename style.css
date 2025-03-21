@@ -1,0 +1,112 @@
+table {
+    border-collapse: collapse;
+    animation-name: table;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background: linear-gradient(red, yellow);
+}
+td, th {
+    width: 215px;
+    height: 110px;
+    border: 3px solid black;
+    font-size: 35px;
+    text-align: center;
+}
+.div{
+    display: flex;
+    justify-content: center;
+}
+.f{
+    font-size: 35px;
+    color: rebeccapurple;
+}
+
+
+
+@keyframes table {
+    0%{
+       background: linear-gradient(45deg,red,yellow);
+       color: orange;
+    }
+    5%{
+        background: linear-gradient(90deg,green,violet);
+        color: blue;
+    }
+    10%{
+        background: linear-gradient(135deg, orange, gray);
+        color: red;
+    }
+    15%{
+        background: linear-gradient(45deg,red,yellow);
+        color: orange;
+     }
+     20%{
+         background: linear-gradient(90deg,green,violet);
+         color: blue;
+     }
+     25%{
+         background: linear-gradient(135deg, orange, gray);
+         color: red;
+     }
+     30%{
+        background: linear-gradient(45deg,red,yellow);
+        color: orange;
+     }
+     35%{
+         background: linear-gradient(90deg,green,violet);
+         color: blue;
+     }
+     40%{
+         background: linear-gradient(135deg, orange, gray);
+         color: red;
+     }
+     45%{
+        background: linear-gradient(45deg,red,yellow);
+        color: orange;
+     }
+     50%{
+         background: linear-gradient(90deg,green,violet);
+         color: blue;
+     }
+     55%{
+         background: linear-gradient(135deg, orange, gray);
+         color: red;
+     }
+     60%{
+        background: linear-gradient(45deg,red,yellow);
+        color: orange;
+     }
+     65%{
+         background: linear-gradient(90deg,green,violet);
+         color: blue;
+     }
+     70%{
+         background: linear-gradient(135deg, orange, gray);
+         color: red;
+     }
+     75%{
+       background: linear-gradient(45deg,red,yellow);
+       color: orange;
+    }
+    80%{
+        background: linear-gradient(90deg,green,violet);
+        color: blue;
+    }
+    85%{
+        background: linear-gradient(135deg, orange, gray);
+        color: red;
+    }
+    90%{
+        background: linear-gradient(45deg,red,yellow);
+        color: orange;
+     }
+     95%{
+         background: linear-gradient(90deg,green,violet);
+         color: blue;
+     }
+     100%{
+         background: linear-gradient(135deg, orange, gray);
+         color: red;
+     }
+}
